@@ -39,6 +39,10 @@ html, body {
       opacity: 1;
     }
 	
+
+
+
+
 	/*이동버튼 꾸미기*/
 	.slick-prev, .slick-next{
 		width:27px;
@@ -60,6 +64,7 @@ html, body {
 	.slick-next:hover{
 		background:url(../images/next.png) no-repeat;
 	}
+
 	
 	/*블릿버튼 꾸미기*/
 	.slick-dots li button:before{
@@ -69,11 +74,11 @@ html, body {
 		width:10px;
 		height:10px;
 		padding:0;
-		background:pink;
+		background: #ffe9b9;
 		border-radius:50%;
 		opacity: 0.5;
 	}
 	.slick-dots li.slick-active button{
-		background:pink;
+		background: #fdb72f;
 		opacity:1
 	}

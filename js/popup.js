@@ -3,7 +3,7 @@ $(function(){
     $('.popup_1').fadeIn();
   });
 
-  $('.popup_1 p').click(function(){
+  $('.popup_1 p a').click(function(){
     $('.popup_1').fadeOut();
   });
 
@@ -12,7 +12,7 @@ $(function(){
     $('.popup_2').fadeIn();
   });
 
-  $('.popup_2 p').click(function(){
+  $('.popup_2 p a').click(function(){
     $('.popup_2').fadeOut();
   });
   // 
@@ -20,7 +20,7 @@ $(function(){
     $('.popup_3').fadeIn();
   });
 
-  $('.popup_3 p').click(function(){
+  $('.popup_3 p a').click(function(){
     $('.popup_3').fadeOut();
   });
   //
@@ -28,7 +28,7 @@ $(function(){
     $('.popup_4').fadeIn();
   });
 
-  $('.popup_4 p').click(function(){
+  $('.popup_4 p a').click(function(){
     $('.popup_4').fadeOut();
   });
 
